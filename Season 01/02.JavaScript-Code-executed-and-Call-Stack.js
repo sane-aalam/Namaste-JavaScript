@@ -1,4 +1,11 @@
 
+// When a JS program is ran, a global execution context is created.
+
+// The execution context is created in two phases.
+
+// Memory creation phase - JS will allocate memory to variables and functions.
+// Code execution phase
+
 var n = 2;
 function square(num){
     var ans = num * num;
